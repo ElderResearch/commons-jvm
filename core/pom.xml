@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.elderresearch</groupId>
 		<artifactId>commons-jvm-parent</artifactId>
-		<version>feature~security-SNAPSHOT</version>
+		<version>2.6.8-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	
@@ -14,6 +14,8 @@
 
 	<properties>
 		<project.directory></project.directory>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 	
 	<dependencies>
