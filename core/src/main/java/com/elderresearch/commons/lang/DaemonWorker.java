@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 /**
  * Processes items in a queue with a daemon thread. 
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @param <T> the type of items to process
  * @since Aug 26, 2016
  */

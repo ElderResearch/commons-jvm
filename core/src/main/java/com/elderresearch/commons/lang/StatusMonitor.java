@@ -14,7 +14,7 @@ import lombok.RequiredArgsConstructor;
  * Provides a mechanism for tracking status and progress on long-running tasks
  * and notifying listeners.
  * 
- * @author <a href="dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Jun 29, 2012
  */
 public class StatusMonitor {

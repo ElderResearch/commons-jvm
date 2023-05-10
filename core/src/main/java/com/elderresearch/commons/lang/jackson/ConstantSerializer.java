@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.ser.std.ToStringSerializerBase;
  * a field at serialization. Typically you would use this as a mixin using {@link JsonSerialize} {@code using} a subclass
  * of this class. A provided {@link PasswordSerializer} with a password asterisks can be used to mask sensitive values.
  * 
- * @author <a href="dimeo@elderresearch.com">John Dimeo</a>
+
  * @since Mar 9, 2021
  */
 public class ConstantSerializer extends ToStringSerializerBase {

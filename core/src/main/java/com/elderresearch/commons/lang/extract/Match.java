@@ -13,7 +13,7 @@ import org.apache.commons.lang3.Range;
 /**
  * Represents a match from an {@link Extractor}.
  * 
- * @author <a href="dimeo@elderresearch.com">John Dimeo</a>
+
  * @since Jul 1, 2020
  * @param <T> the type of value returned by the extractor
  */

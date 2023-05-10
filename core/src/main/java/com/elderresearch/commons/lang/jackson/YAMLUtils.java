@@ -11,7 +11,7 @@ import lombok.experimental.UtilityClass;
 /**
  * Utilities for using Jackson and its {@link ObjectMapper} to use YAML.
  * 
- * @author <a href="mailto:dimeo@elderresearch.com">John Dimeo</a>
+
  * @since Nov 14, 2017
  */
 @UtilityClass

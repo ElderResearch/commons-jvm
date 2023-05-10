@@ -16,7 +16,7 @@ import com.elderresearch.commons.lang.LambdaUtils.Interruptable;
  * using more than one worker thread, the callback routine must be thread-safe
  * and the iterator order is no longer guaranteed.
  * 
- * @author <a href="dimeo@datamininglab.com">John Dimeo</a>
+
  * @param <T> the type of object to iterate
  * @since Jul 4, 2013
  */

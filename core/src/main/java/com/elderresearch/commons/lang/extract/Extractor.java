@@ -28,7 +28,7 @@ import lombok.val;
  * is thread-safe since it uses {@link ThreadLocal} to protected
  * format instances.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @param <F> the format class
  * @param <T> the type of value extracted by the extractor
  * @since Mar 8, 2016

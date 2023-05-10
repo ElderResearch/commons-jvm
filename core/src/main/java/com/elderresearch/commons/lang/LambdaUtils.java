@@ -17,7 +17,7 @@ import lombok.extern.log4j.Log4j2;
 /**
  * Some utilities around interacting with Java 8's lambda/functional interfaces, mostly dealing with {@code null}.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Oct 19, 2016
  */
 @UtilityClass

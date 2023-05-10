@@ -20,7 +20,7 @@ import lombok.val;
  * Custom classes that override the default line break behavior and allow it to be customized. Ideally, this wouldn't
  * require our own subclasses/hacking, but I don't see a way of setting the line breaks in a more general way.
  * 
- * @author <a href="mailto:dimeo@elderresearch.com">John Dimeo</a>
+
  * @since Nov 14, 2017
  */
 @AllArgsConstructor

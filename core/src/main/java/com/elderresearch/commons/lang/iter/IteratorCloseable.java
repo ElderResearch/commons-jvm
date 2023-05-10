@@ -14,7 +14,7 @@ import lombok.extern.log4j.Log4j2;
  * closed manually before all data has been iterated over. You should generally use this in a try-with-resource
  * block so you ensure you close the iterator even if not every element is iterated over.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @param <T> the type of data being iterated over
  * @since Jan 5, 2017
  */

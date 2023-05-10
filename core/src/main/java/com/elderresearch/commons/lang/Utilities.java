@@ -48,7 +48,7 @@ import lombok.extern.log4j.Log4j2;
 /**
  * A collection of common stateless utilities.
  * 
- * @author <a href="dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Sep 26, 2012
  */
 @Log4j2

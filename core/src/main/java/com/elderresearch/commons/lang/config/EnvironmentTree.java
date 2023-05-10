@@ -23,7 +23,7 @@ import lombok.val;
  * via {@link System#getenv()} and system properties via {@link System#getProperties()}) and applies them to an
  * object via a {@link JsonNode} tree.
  * 
- * @author <a href="dimeo@elderresearch.com">John Dimeo</a>
+
  * @since Jun 13, 2020
  */
 public class EnvironmentTree {
@@ -117,10 +117,10 @@ public class EnvironmentTree {
                 val key = prefix + CaseFormat.LOWER_CAMEL.to(env.pathFormat(),
                         path.toString().replace(JsonPointer.SEPARATOR, env.pathSeparator()));
                 if (env.has(key)) {
-                	val node = tree.at(path.head());
+                	JsonNode node = tree.at(path.head());
                 	if (node instanceof ObjectNode) {
                 		ObjectNode on = Utilities.cast(node);
-                        on.put(path.getMatchingProperty(), env.get(key));	
+                        on.put(last(path), env.get(key));	
                 	}
                 }
             }
@@ -129,6 +129,13 @@ public class EnvironmentTree {
 		
 		for (val env : environments) { env.close(); }
 	}
+	
+	private static String last(JsonPointer p) {
+		// p.last() throws NPE or ConcurrentException or is wrong
+		int i = p.toString().lastIndexOf(JsonPointer.SEPARATOR);
+		return p.toString().substring(i + 1);
+	}
+			
 	
 	public String normalizePath(String path) {
 		val srcFmt = path.chars().anyMatch(Character::isLowerCase)? CaseFormat.LOWER_CAMEL : CaseFormat.UPPER_UNDERSCORE;

@@ -13,7 +13,7 @@ import com.google.common.collect.Lists;
  * Provides a simplified way of specifying the locale "scope" of extract
  * operations.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Mar 7, 2016
  */
 public enum LocalityLevel {

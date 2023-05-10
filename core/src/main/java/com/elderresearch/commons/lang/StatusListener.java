@@ -9,7 +9,7 @@ import lombok.extern.log4j.Log4j2;
 /**
  * A listener that receives updates when a status monitor changes state.
  * 
- * @author <a href="dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Jun 29, 2012
  */
 @FunctionalInterface

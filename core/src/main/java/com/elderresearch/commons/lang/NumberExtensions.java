@@ -7,7 +7,7 @@ import lombok.experimental.UtilityClass;
  * Extends {@link Number} with utilities to convert the number to the boxed
  * primitive types, skipping unboxing/boxing if possible. 
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Mar 8, 2016
  */
 @UtilityClass

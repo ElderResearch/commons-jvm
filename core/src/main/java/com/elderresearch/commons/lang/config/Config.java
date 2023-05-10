@@ -1,9 +1,7 @@
 /* ©2020 Elder Research, Inc. All rights reserved. */
 package com.elderresearch.commons.lang.config;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
@@ -27,7 +25,7 @@ import lombok.val;
  * <li>Overriding values with environment variables and system properties</li>
  * <li>Post-processing (like decrypting a hashed password)</li></ul>
  * 
- * @author <a href="dimeo@elderresearch.com">John Dimeo</a>
+
  * @since Jul 9, 2020
  */
 public interface Config {

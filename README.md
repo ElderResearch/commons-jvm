@@ -7,38 +7,15 @@ A "toolbox" of language extensions and utilities for JVM-based languages, like J
 
 ## Maven
 
-You can install this library from [Jipack.io](https://jitpack.io). Add the following repository to your POM:
-
-```xml
-<repositories>
-   <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-   </repository>
-</repositories>
- ```
-
 And then the following dependency:
 
 ```xml
 <dependency>
 	<groupId>com.elderresearch.commons-jvm</groupId>
 	<artifactId>commons-jvm</artifactId>
-	<version>2.5.0</version>
+	<version>x.y.z</version>
 </dependency>
 ```
-
-for Java 11+ or
-
-```xml
-<dependency>
-	<groupId>com.elderresearch.commons-jvm</groupId>
-	<artifactId>commons-jvm-java8</artifactId>
-	<version>2.5.0</version>
-</dependency>
-```
-
-for Java 8.
 
 # Dependencies
 

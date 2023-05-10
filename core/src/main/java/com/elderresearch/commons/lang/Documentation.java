@@ -32,7 +32,7 @@ import lombok.val;
  * run time. This class uses {@link CharSequence} instead of {@link String} so that the values can be customized
  * dynamically (for example localized).
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Mar 1, 2017
  */
 @Builder @With

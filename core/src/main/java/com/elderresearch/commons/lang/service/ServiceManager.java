@@ -12,7 +12,7 @@ import java.util.function.Function;
  * Utilities around the {@link ServiceLoader} API. Orders implementations of a given service by some ordering (a
  * priority enum is provided for convenience), and applies some function to each in turn.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @param <S> the service type
  * @since Sep 20, 2016
  */

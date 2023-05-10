@@ -25,7 +25,7 @@ import org.apache.commons.lang3.StringUtils;
  * {@link #setCleaningRegex(String, String)}) must be done <b>before</b> any testing, since the transformed basis and
  * test strings are cached.
  * 
- * @author <a href="dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Sep 13, 2013
  */
 @SuppressWarnings("hiding")

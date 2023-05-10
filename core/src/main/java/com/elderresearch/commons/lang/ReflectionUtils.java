@@ -18,7 +18,7 @@ import lombok.extern.log4j.Log4j2;
 /**
  * Static container for utilities associated with accessing class components via reflection.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @since April 29, 2011
  */
 @Log4j2

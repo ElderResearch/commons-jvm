@@ -30,7 +30,7 @@ import lombok.experimental.UtilityClass;
  * non-Latin scripts are not checked in to this repository (like CJK, Hangul, Katakana, etc.) to limit the dependency
  * size (since this library is used in almost all ERI code), but can be re-generated using this class if they are needed.  
  * 
- * @author <a href="dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Dec 29, 2012
  */
 @UtilityClass

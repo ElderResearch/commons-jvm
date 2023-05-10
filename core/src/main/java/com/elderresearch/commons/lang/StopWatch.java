@@ -16,7 +16,7 @@ import lombok.Synchronized;
  * start and stop parent stop watches (to track the time it takes to perform
  * a parent task at the same time you are tracking each child task).
  * 
- * @author <a href="dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Jan 15, 2013
  */
 public class StopWatch {

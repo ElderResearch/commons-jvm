@@ -11,7 +11,7 @@ import org.junit.Test;
 /**
  * Test case for stop watch utility.
  * 
- * @author <a href="dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Jan 15, 2013
  */
 public class StopWatchTest {

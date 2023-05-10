@@ -20,7 +20,7 @@ import lombok.extern.log4j.Log4j2;
  * instances that are not thread-safe, thread-localized instances can be 
  * obtained from the static factory methods of this class.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Mar 8, 2016
  */
 @Log4j2

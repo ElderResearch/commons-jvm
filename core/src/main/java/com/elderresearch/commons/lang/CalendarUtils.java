@@ -20,7 +20,7 @@ import lombok.extern.log4j.Log4j2;
 /**
  * Contains some time/date utilities using the {@link Calendar} API.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Jan 6, 2016
  */
 @Log4j2

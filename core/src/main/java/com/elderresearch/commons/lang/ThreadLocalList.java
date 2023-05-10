@@ -11,7 +11,7 @@ import lombok.val;
  * Very similar to a {@link ThreadLocal} but this allows callers to access all created instances, not just
  * the one visible to the current thread. This class is thread-safe.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @param <T> the type of object associated with each thread
  * @since Feb 17, 2017
  */

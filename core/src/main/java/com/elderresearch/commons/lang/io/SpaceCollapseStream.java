@@ -10,7 +10,7 @@ import java.io.InputStream;
  * CSV since that is trimming space inside a delimited field, and doesn't have any effect if
  * space itself is the delimiter. This is useful for space-/column-aligned files.
  * 
- * @author <a href="mailto:dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Feb 10, 2017
  */
 public class SpaceCollapseStream extends InputStream {

@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
  * instances that are not thread-safe, thread-localized instances can be 
  * obtained from the static factory methods of this class.
  * 
- * @author <a href="dimeo@datamininglab.com">John Dimeo</a>
+
  * @since Jun 30, 2012
  */
 public class DateExtractor extends Extractor<DateFormat, Date> {
